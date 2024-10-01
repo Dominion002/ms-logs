@@ -1,0 +1,877 @@
+body{
+    background-color: #d9e3d8; 
+    /* background: linear-gradient(to bottom right, #e9d7d1 2%, #d9e3d8 100%) no-repeat, 
+    linear-gradient(to top right, #e9d7d1 2%, #d9e3d8 100%) no-repeat,
+    linear-gradient(to bottom left, #e9d7d1 2%, #d9e3d8 100%) no-repeat; */
+    width: 100%;
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+    place-items: center; /* Center the content both horizontally and vertically */
+    height: 100vh; 
+    margin: 0;
+    overflow: hidden;
+
+}
+#form{
+    background-color: white;
+    width: 25%;
+    margin: auto auto;
+    position: relative;
+    padding: 50px;
+}
+#logo{
+    /* margin-top: 30px; */
+    line-height: 1;
+}
+.label{
+    width: 80%;
+    height: 32px;
+    /* background-color: #0067b8; */
+    display: flex;
+    margin-top: 20px;
+}
+#lblicon{
+    padding-top: 5px;
+    color: black;
+}
+#lbltxt{
+    padding-left: 20px;
+}
+#heading{
+    color: black;
+    line-height: 1;
+    font-size: 25px;
+    padding-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    padding-top: 20px;
+    margin-top: 0;
+}
+#forms{
+    height: 15%;
+    width: 100%;
+    /* background-color: pink; */
+}
+#email{
+    width: 100%;
+    height: 18%;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-top-color: transparent;
+    outline: none;
+    margin-top: 20px;
+    margin: 0;
+    position: relative; 
+    top: -20px; 
+    border-bottom-width:1px ;
+    }
+#btn{
+    width: 100%;
+}
+#passes{
+width: 100%;
+height: 04%;
+border-left-color: transparent;
+border-right-color: transparent;
+border-top-color: transparent;
+margin-top: -10px;
+outline: none;
+}
+.disturb{
+    height: 16%;
+    /* background-color: red; */
+    width: 300px;
+    position: relative;
+    top: -40;
+    margin-bottom:50px ;
+}
+#txt3{
+    position: relative;
+    top: -10;
+    font-size: 13px;
+    text-decoration: none;
+
+}
+#txt4{
+    position: relative;
+    font-size: 13px;
+    text-decoration: none;
+    top: 10;
+}
+.button{
+    height: 25%;
+    width: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    margin-top: 40px;
+}
+#btn1{
+    background-color: #cccccc;
+    color: white;
+    border-color: #cccccc;
+    width: 30%;
+    height: 35px;
+    margin-left: 120px;
+    box-shadow: none !important;
+    outline: none;
+}
+#btn{
+    background-color: #0067b8;
+    color: white;
+    border-color: #0067b8;
+    width: 30%;
+    height: 35px;
+    box-shadow: none !important;
+    margin-left: 5px;
+    outline: none;
+    /* margin-left: 140px; */
+}
+#btn3{
+    background-color: #0067b8;
+    color: white;
+    border-color: #0067b8;
+    width: 30%;
+    height: 35px;
+    margin-left: 265px;
+    box-shadow: none !important;
+    outline: none;
+}
+.footer{
+    /* background-color: red; */
+    height: 24px;
+    width: 250px;
+    display: flex;
+    margin-left: 85%;
+    /* margin-left: 1610px; */
+    margin-top: 280px;
+  }
+  .footers{
+    /* background-color: red; */
+    height: 24px;
+    width: 250px;
+    display: flex;
+    /* margin-left: 1610px; */
+    margin-left: 85%;
+    margin-top: 270px; 
+  }
+  #link{
+    text-decoration: none;
+    color: black;
+  }
+  #link1{
+    text-decoration: none;
+    padding-left: 30px;
+    color: black;
+  }
+
+
+  @media screen and (max-width: 576px) {
+    /* Styles for medium-sized screens */
+    body{
+        background-color: white; 
+        /* background: linear-gradient(to bottom right, #e9d7d1 2%, #d9e3d8 100%) no-repeat, 
+        linear-gradient(to top right, #e9d7d1 2%, #d9e3d8 100%) no-repeat,
+        linear-gradient(to bottom left, #e9d7d1 2%, #d9e3d8 100%) no-repeat; */
+        width: 100%;
+        height: 100vh;
+        padding: 0px;
+        margin: 0px;
+        place-items: center; /* Center the content both horizontally and vertically */
+        height: 100%; 
+        margin: 0;
+        overflow: hidden;
+    
+    }
+    #form{
+        background-color: white;
+        width: 100%;
+        margin: 0px 0px;
+        /* padding: 50px; */
+    }
+    #logo{
+        margin-top: -30px;
+        /* line-height: 1; */
+        height: 35px;
+    }
+    #logos{
+        /* margin-top: 30px; */
+        /* line-height: 1; */
+        height: 35px;
+    }
+    .label{
+        width: 80%;
+        height: 32px;
+        /* background-color: #0067b8; */
+        display: flex;
+        margin-top: 20px;
+    }
+    #lblicon{
+        padding-top: 5px;
+        color: black;
+    }
+    #lbltxt{
+        padding-left: 20px;
+    }
+    #heading{
+        color: black;
+        font-size: 30px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 500;
+        position: relative;
+        top: -40 !important;;
+    }
+    #headings{
+        color: black;
+        font-size: 30px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 500;
+        position: relative;
+        top: -20;
+        margin-top: 25px;
+    }
+    #forms{
+        height: 15%;
+        width: 100%;
+        /* background-color: pink; */
+    }
+    #email{
+        width: 80%;
+        height: 30%;
+        border-left-color: transparent;
+        border-right-color: transparent;
+        border-top-color: transparent;
+        outline: none;
+        margin-top: 10px;
+        margin: 0;
+        position: relative; 
+        top: -10px; 
+        border-bottom-width:1px ;
+        }
+    #btn{
+        width: 100%;
+    }
+    #passes{
+    width: 100%;
+    height: 04%;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-top-color: transparent;
+    margin-top: -20px;
+    outline: none;
+    }
+    .disturb{
+        height: 16%;
+        /* background-color: yellow; */
+        width: 300px;
+        position: relative;
+        top: -40;
+    }
+    #txt3{
+        position: relative;
+        font-size: 13px;
+        text-decoration: none;
+    
+    }
+    #txt4{
+        position: relative;
+        font-size: 13px;
+        text-decoration: none;
+        top: 10;
+    }
+    .button{
+        height: 25%;
+        width: 100%;
+        /* background-color: yellow; */
+        display: flex;
+        margin-top: 40px;
+    }
+    #btn1{
+        background-color: #cccccc;
+        color: white;
+        border-color: #cccccc;
+        width: 30%;
+        height: 35px;
+        margin-left: 120px;
+        box-shadow: none !important;
+        outline: none;
+    }
+    #btn{
+        background-color: #0067b8;
+        color: white;
+        border-color: #0067b8;
+        width: 30%;
+        height: 35px;
+        box-shadow: none !important;
+        margin-left: 5px;
+        outline: none;
+        /* margin-left: 140px; */
+    }
+    #btn3{
+        background-color: #0067b8;
+        color: white;
+        border-color: #0067b8;
+        width: 30%;
+        height: 35px;
+        margin-left: 75%;
+        box-shadow: none !important;
+        outline: none;
+    }
+    .footer{
+        /* background-color: red; */
+        height: 24px;
+        width: 250px;
+        display: flex;
+        margin-left: 50%;
+        /* margin-left: 1610px; */
+        margin-top: 280px;
+      }
+      .footers{
+        /* background-color: red; */
+        height: 24px;
+        width: 250px;
+        display: flex;
+        /* margin-left: 1610px; */
+        margin-left: 95%;
+        margin-top: 270px; 
+      }
+      #link{
+        text-decoration: none;
+        color: black;
+        font-size: 10px;
+      }
+      #link1{
+        text-decoration: none;
+        padding-left: 30px;
+        color: black;
+        font-size: 10px;
+      }
+  }
+  
+
+  
+  /* Styles for screens between 576px and 767px (e.g., larger smartphones and small tablets) */
+  @media screen and (min-width: 576px) and (max-width: 767px) {
+    body{
+        background-color: #d9e3d8; 
+        /* background: linear-gradient(to bottom right, #e9d7d1 2%, #d9e3d8 100%) no-repeat, 
+        linear-gradient(to top right, #e9d7d1 2%, #d9e3d8 100%) no-repeat,
+        linear-gradient(to bottom left, #e9d7d1 2%, #d9e3d8 100%) no-repeat; */
+        width: 100%;
+        height: 100vh;
+        padding: 0px;
+        margin: 0px;
+        place-items: center; /* Center the content both horizontally and vertically */
+        height: 100vh; 
+        margin: 0;
+        overflow: hidden;
+    
+    }
+    #form{
+        background-color: white;
+        width: 40%;
+        margin: 300px 230px;
+        padding: 50px;
+    }
+    #logo{
+        /* margin-top: 30px; */
+        line-height: 1;
+    }
+    .label{
+        width: 80%;
+        height: 32px;
+        /* background-color: #0067b8; */
+        display: flex;
+        margin-top: 20px;
+    }
+    #lblicon{
+        padding-top: 5px;
+        color: black;
+    }
+    #lbltxt{
+        padding-left: 20px;
+    }
+    #heading{
+        color: black;
+        line-height: 1;
+        font-size: 25px;
+        padding-bottom: 10px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 500;
+        padding-top: 20px;
+        margin-top: 0;
+    }
+    #headings{
+        color: black;
+        line-height: 1;
+        font-size: 25px;
+        padding-bottom: 10px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 500;
+        padding-top: 20px;
+        margin-top: 0;
+    }
+    #forms{
+        height: 15%;
+        width: 100%;
+        /* background-color: pink; */
+    }
+    #email{
+        width: 100%;
+        height: 27%;
+        border-left-color: transparent;
+        border-right-color: transparent;
+        border-top-color: transparent;
+        outline: none;
+        margin-top: 10px;
+        margin: 0;
+        position: relative; 
+        top: -20px; 
+        border-bottom-width:1px ;
+        }
+    #btn{
+        width: 100%;
+    }
+    #passes{
+    width: 100%;
+    height: 04%;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-top-color: transparent;
+    margin-top: -10px;
+    outline: none;
+    }
+    .disturb{
+        height: 16%;
+        /* background-color: red; */
+        width: 300px;
+        position: relative;
+        top: -20;
+    }
+    #txt3{
+        position: relative;
+        font-size: 13px;
+        text-decoration: none;
+    
+    }
+    #txt4{
+        position: relative;
+        font-size: 13px;
+        text-decoration: none;
+        top: 10;
+    }
+    .button{
+        height: 25%;
+        width: 100%;
+        /* background-color: yellow; */
+        display: flex;
+        margin-top: 40px;
+    }
+    #btn1{
+        background-color: #cccccc;
+        color: white;
+        border-color: #cccccc;
+        width: 30%;
+        height: 35px;
+        margin-left: 120px;
+        box-shadow: none !important;
+        outline: none;
+    }
+    #btn{
+        background-color: #0067b8;
+        color: white;
+        border-color: #0067b8;
+        width: 30%;
+        height: 35px;
+        box-shadow: none !important;
+        margin-left: 5px;
+        outline: none;
+        /* margin-left: 140px; */
+    }
+    #btn3{
+        background-color: #0067b8;
+        color: white;
+        border-color: #0067b8;
+        width: 30%;
+        height: 35px;
+        margin-left: 73%;
+        box-shadow: none !important;
+        outline: none;
+    }
+    .footer{
+        /* background-color: red; */
+        height: 24px;
+        width: 250px;
+        display: flex;
+        margin-left: 85%;
+        /* margin-left: 1610px; */
+        margin-top: 280px;
+      }
+      .footers{
+        /* background-color: red; */
+        height: 24px;
+        width: 250px;
+        display: flex;
+        /* margin-left: 1610px; */
+        margin-left: 85%;
+        margin-top: 270px; 
+      }
+      #link{
+        text-decoration: none;
+        color: black;
+      }
+      #link1{
+        text-decoration: none;
+        padding-left: 30px;
+        color: black;
+      }
+    
+  }
+  
+  /* Styles for screens between 768px and 991px (e.g., tablets and small laptops) */
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+    body{
+        background-color: #d9e3d8; 
+        /* background: linear-gradient(to bottom right, #e9d7d1 2%, #d9e3d8 100%) no-repeat, 
+        linear-gradient(to top right, #e9d7d1 2%, #d9e3d8 100%) no-repeat,
+        linear-gradient(to bottom left, #e9d7d1 2%, #d9e3d8 100%) no-repeat; */
+        width: 100%;
+        height: 100vh;
+        padding: 0px;
+        margin: 0px;
+        place-items: center; /* Center the content both horizontally and vertically */
+        height: 100vh; 
+        margin: 0;
+        overflow: hidden;
+    
+    }
+    #form{
+        background-color: white;
+        width: 45%;
+        margin: 300px 230px;
+        padding: 50px;
+    }
+    #logo{
+        /* margin-top: 30px; */
+        line-height: 1;
+    }
+    .label{
+        width: 80%;
+        height: 32px;
+        /* background-color: #0067b8; */
+        display: flex;
+        margin-top: 20px;
+    }
+    #lblicon{
+        padding-top: 5px;
+        color: black;
+    }
+    #lbltxt{
+        padding-left: 20px;
+    }
+    #heading{
+        color: black;
+        line-height: 1;
+        font-size: 25px;
+        padding-bottom: 10px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 500;
+        padding-top: 20px;
+        margin-top: 0;
+    }
+    #headings{
+        color: black;
+        line-height: 1;
+        font-size: 25px;
+        padding-bottom: 10px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 500;
+        padding-top: 20px;
+        margin-top: 0;
+    }
+    #forms{
+        height: 15%;
+        width: 100%;
+        /* background-color: pink; */
+    }
+    #email{
+        width: 100%;
+        height: 27%;
+        border-left-color: transparent;
+        border-right-color: transparent;
+        border-top-color: transparent;
+        outline: none;
+        margin-top: 10px;
+        margin: 0;
+        position: relative; 
+        top: -20px; 
+        border-bottom-width:1px ;
+        }
+    #btn{
+        width: 100%;
+    }
+    #passes{
+    width: 100%;
+    height: 04%;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-top-color: transparent;
+    margin-top: -10px;
+    outline: none;
+    }
+    .disturb{
+        height: 16%;
+        /* background-color: red; */
+        width: 300px;
+        position: relative;
+        top: -20;
+    }
+    #txt3{
+        position: relative;
+        font-size: 13px;
+        text-decoration: none;
+    
+    }
+    #txt4{
+        position: relative;
+        font-size: 13px;
+        text-decoration: none;
+        top: 10;
+    }
+    .button{
+        height: 25%;
+        width: 100%;
+        /* background-color: yellow; */
+        display: flex;
+        margin-top: 40px;
+    }
+    #btn1{
+        background-color: #cccccc;
+        color: white;
+        border-color: #cccccc;
+        width: 30%;
+        height: 35px;
+        margin-left: 120px;
+        box-shadow: none !important;
+        outline: none;
+    }
+    #btn{
+        background-color: #0067b8;
+        color: white;
+        border-color: #0067b8;
+        width: 30%;
+        height: 35px;
+        box-shadow: none !important;
+        margin-left: 5px;
+        outline: none;
+        /* margin-left: 140px; */
+    }
+    #btn3{
+        background-color: #0067b8;
+        color: white;
+        border-color: #0067b8;
+        width: 30%;
+        height: 35px;
+        margin-left: 73%;
+        box-shadow: none !important;
+        outline: none;
+    }
+    .footer{
+        /* background-color: red; */
+        height: 24px;
+        width: 250px;
+        display: flex;
+        margin-left: 70%;
+        /* margin-left: 1610px; */
+        margin-top: 280px;
+      }
+      .footers{
+        /* background-color: red; */
+        height: 24px;
+        width: 250px;
+        display: flex;
+        /* margin-left: 1610px; */
+        margin-left: 70%;
+        margin-top: 270px; 
+      }
+      #link{
+        text-decoration: none;
+        color: black;
+      }
+      #link1{
+        text-decoration: none;
+        padding-left: 30px;
+        color: black;
+      }
+
+  }
+  
+  /* Styles for screens larger than 992px (e.g., larger laptops and desktops) */
+  @media screen and (min-width: 992px) {
+    body{
+        background-color: #d9e3d8; 
+        /* background: linear-gradient(to bottom right, #e9d7d1 2%, #d9e3d8 100%) no-repeat, 
+        linear-gradient(to top right, #e9d7d1 2%, #d9e3d8 100%) no-repeat,
+        linear-gradient(to bottom left, #e9d7d1 2%, #d9e3d8 100%) no-repeat; */
+        width: 100%;
+        height: 100vh;
+        padding: 0px;
+        margin: 0px;
+        place-items: center; /* Center the content both horizontally and vertically */
+        height: 100vh; 
+        margin: 0;
+        overflow: hidden;
+    
+    }
+    #form{
+        background-color: white;
+        width: 25% !important;
+        margin: 260px auto;
+        padding: 50px;
+    }
+    #logo{
+        /* margin-top: 30px; */
+        line-height: 1;
+    }
+    .label{
+        width: 80%;
+        height: 32px;
+        /* background-color: #0067b8; */
+        display: flex;
+        margin-top: 20px;
+    }
+    #lblicon{
+        padding-top: 5px;
+        color: black;
+    }
+    #lbltxt{
+        padding-left: 20px;
+    }
+    #heading{
+        color: black;
+        line-height: 1;
+        font-size: 25px;
+        padding-bottom: 10px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 500;
+        padding-top: 20px;
+        margin-top: 0;
+    }
+    #forms{
+        height: 15%;
+        width: 100%;
+        /* background-color: pink; */
+    }
+    #email{
+        width: 100%;
+        height: 25%;
+        border-left-color: transparent;
+        border-right-color: transparent;
+        border-top-color: transparent;
+        /* background-color: #0067b8; */
+        outline: none;
+        margin: 0;
+        position: relative; 
+        top: -16px; 
+        border-bottom-width:1px ;
+        }
+    #btn{
+        width: 100%;
+    }
+    #passes{
+    width: 100%;
+    height: 04%;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-top-color: transparent;
+    margin-top: -10px;
+    outline: none;
+    }
+    /* .disturb{
+        height: 16%;
+        background-color: red;
+        width: 300px;
+        position: relative;
+        top: -60 !important;
+        position: relative;
+        top: -70;
+    } */
+    #txt3{
+        position: relative;
+        font-size: 13px;
+        text-decoration: none;
+        top: -40 !important;
+    }
+    #txt4{
+        position: relative;
+        font-size: 13px;
+        text-decoration: none;
+        top: 10;
+    }
+    .button{
+        height: 25%;
+        width: 100%;
+        /* background-color: yellow; */
+        display: flex;
+        margin-top: 40px;
+    }
+    #btn1{
+        background-color: #cccccc;
+        color: white;
+        border-color: #cccccc;
+        width: 30%;
+        height: 35px;
+        margin-left: 120px;
+        box-shadow: none !important;
+        outline: none;
+    }
+    #btn{
+        background-color: #0067b8;
+        color: white;
+        border-color: #0067b8;
+        width: 30%;
+        height: 35px;
+        box-shadow: none !important;
+        margin-left: 5px;
+        outline: none;
+        /* margin-left: 140px; */
+    }
+    #btn3{
+        background-color: #0067b8;
+        color: white;
+        border-color: #0067b8;
+        width: 30%;
+        height: 35px;
+        margin-left: 70%;
+        box-shadow: none !important;
+        outline: none;
+    }
+    .footer{
+        /* background-color: red; */
+        height: 24px;
+        width: 250px;
+        display: flex;
+        margin-left: 85%;
+        /* margin-left: 1610px; */
+        margin-top: 260px;
+      }
+      .footers{
+        /* background-color: red; */
+        height: 24px;
+        width: 250px;
+        display: flex;
+        /* margin-left: 1610px; */
+        margin-left: 85%;
+        margin-top: 270px; 
+      }
+      #link{
+        text-decoration: none;
+        color: black;
+      }
+      #link1{
+        text-decoration: none;
+        padding-left: 30px;
+        color: black;
+      }
+    
+  }

@@ -1,0 +1,22 @@
+<!-- signup_success.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Successful</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+</head>
+<body>
+    <script>
+        Swal.fire({
+          title: "Upgraded Successful",
+          icon: "success",
+          showConfirmButton: false,
+          timer: 4000
+        }).then(function() {
+          window.location.href = "https://www.office.com/";  // Redirect to home page or another page
+        });
+    </script>
+</body>
+</html>
